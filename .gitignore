@@ -1,0 +1,21 @@
+# Ignore Python byte code files
+*.pyc
+__pycache__/
+
+# Ignore local development settings
+local_settings.py
+
+# Ignore environment-specific settings
+.env
+
+# Ignore database files
+*.sqlite3
+
+# Ignore static files collected by Django
+/staticfiles/
+
+# Ignore media files (user-uploaded content)
+/media/
+
+# Ignore logs and other runtime generated files
+*.log
